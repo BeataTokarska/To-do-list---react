@@ -1,7 +1,7 @@
 # To Do List 
 # [Go to website ](https://beatatokarska.github.io/To-do-list---react/)
 
-![](https://raw.githubusercontent.com/BeataTokarska/To-do-list/main/images/To%20Do%20List%20screen.png)
+![](https://raw.githubusercontent.com/BeataTokarska/To-do-list---react/main/public/To%20do%20app%20screen.png)
 
 
 ## With this app you can  

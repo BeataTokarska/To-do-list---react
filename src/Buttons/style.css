@@ -9,6 +9,7 @@
     border: none;
     margin: 0 0 0 20px;
     transition: color 0.3s;
+    cursor: pointer;
 }
 
 @media(max-width: 767px) {
@@ -17,10 +18,11 @@
         margin: 10px;
     }
 }
-.buttons__button:hover {
-    color: hsl(180, 100%, 35%) ;
 
+.buttons__button:hover {
+    color: hsl(180, 100%, 35%);
 }
-.buttons__button:disabled { 
+
+.buttons__button:disabled {
     color: #ccc;
 }

@@ -1,11 +1,11 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./style.css";
 
 const Buttons = ({ tasks, hideDoneTasks }) => (
 
     <div className="buttons">
         {tasks.length > 0 && (
-            <React.Fragment>
+            <Fragment>
                 <button className="buttons__button">
                     {hideDoneTasks ? "Pokaż" : "Ukryj"}
                     ukończone
@@ -14,7 +14,7 @@ const Buttons = ({ tasks, hideDoneTasks }) => (
                     disabled={tasks.every(({ done }) => done)}>
                     Ukończ wszystkie
                 </button>
-            </React.Fragment>
+            </Fragment>
         )}
 
     </div>

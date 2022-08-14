@@ -7,4 +7,5 @@ const Container = ({ children }) => (
         {children}
     </mian>
 );
+
 export default Container

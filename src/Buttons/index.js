@@ -1,13 +1,13 @@
 import React, { Fragment } from "react";
 import "./style.css";
 
-const Buttons = ({ tasks, hideDoneTasks }) => (
+const Buttons = ({ tasks, hideDones }) => (
 
     <div className="buttons">
         {tasks.length > 0 && (
             <Fragment>
                 <button className="buttons__button">
-                    {hideDoneTasks ? "Pokaż" : "Ukryj"}
+                    {hideDones ? "Pokaż" : "Ukryj"}
                     ukończone
                 </button>
                 <button className="buttons__button"

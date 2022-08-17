@@ -49,6 +49,7 @@
 
 .tasks__item--hidden {
     display: none;
+    
 }
 
 .tasks__content--done {

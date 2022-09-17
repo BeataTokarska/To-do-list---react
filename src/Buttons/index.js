@@ -9,6 +9,7 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
                 <button onClick={toggleHideDone} className="buttons__button">
                     {hideDone ? "Pokaż" : "Ukryj"} ukończone
                 </button>
+
                 <button 
                 onClick={setAllDone}
                 className="buttons__button"
@@ -17,9 +18,7 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
                 </button>
             </>
         )}
-
     </div>
-
 );
 
 export default Buttons;

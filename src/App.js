@@ -25,7 +25,7 @@ function App() {
 
   const toggleTaskDone = (id) => {
     setTasks(tasks => tasks.map(task => {
-      if (task.id === id) {
+        if (task.id === id) {
         return { ...task, done: !task.done };
       }
       return task;
@@ -50,9 +50,8 @@ function App() {
   };
   return (
     <Container>
-      <Header title="Lista zadań" />
-
-
+      <Header title="Lista zadań" 
+      />
       <Section
         title="Dodaj nowe zadanie"
         body={<Form addNewTask={addNewTask} />}
@@ -68,6 +67,7 @@ function App() {
             toggleTaskDone={toggleTaskDone}
           />
         }
+        
         extraHeaderContent={
           <Buttons
             tasks={tasks}
